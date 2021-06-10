@@ -1,0 +1,8 @@
+{
+  "navbarButtons": [
+    { "link": "#", "text": "INICIO" },
+    { "link": "#", "text": "PREDICACIONES" },
+    { "link": "#", "text": "EN VIVO" },
+    { "link": "#", "text": "DIRECIONES" }
+  ]
+}
