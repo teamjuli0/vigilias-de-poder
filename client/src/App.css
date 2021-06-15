@@ -9,6 +9,6 @@
   box-shadow: none;
 }
 
-/* .navbar {
-  background-color: red;
-} */
+.col-12 {
+  padding: 0 !important;
+}
