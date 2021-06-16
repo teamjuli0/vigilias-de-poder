@@ -10,6 +10,11 @@ const language = Spanish
 function App() {
   return (
     <>
+      <link rel='preconnect' href='https://fonts.gstatic.com' />
+      <link
+        href='https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;900&display=swap'
+        rel='stylesheet'
+      />
       <Navbar buttonTxt={language.navbarButtons} />
       <Home />
     </>

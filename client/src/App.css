@@ -12,3 +12,29 @@
 .col-12 {
   padding: 0 !important;
 }
+
+.heroBtn {
+  color: #161616;
+  text-decoration: none;
+  padding: 2px 10px;
+  text-align: center;
+  background-color: white;
+  font-weight: bold;
+  font-size: 14px;
+  margin: 4px;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  border: 2px solid white;
+}
+
+.heroBtn:hover {
+  background-color: #242424;
+  color: #eaeaea;
+  border: 2px solid #eaeaea;
+  border-radius: 3px;
+  /* transform-origin: right; */
+  transform: scale(1.03);
+}
+.modal-backdrop.show {
+  background-color: black;
+}
