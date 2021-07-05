@@ -6,6 +6,12 @@ const styles = {
     backgroundColor: '#efefef',
     fontFamily: 'Source Sans Pro, sans-serif',
   },
+  row: {
+    flex: 'row',
+    flexWrap: 'wrap',
+    maxWidth: '1000px',
+    margin: 'auto',
+  },
 }
 
 const Card = () => (
@@ -13,9 +19,7 @@ const Card = () => (
     style={{
       boxShadow: '0 0 25px #cecece',
       borderRadius: '4px',
-      margin: '0 10px',
-      width: '260px',
-      height: '225px',
+      margin: '10px',
       backgroundColor: '#f7f7f7',
       overflow: 'hidden',
       minWidth: '220px',
@@ -107,15 +111,15 @@ const Card = () => (
 )
 
 const Home = () => (
-  <div className='container-fluid' style={styles.mainDiv}>
+  <main style={styles.mainDiv}>
     <Hero />
-    <div className='row'>
+    <div style={styles.row}>
       <div
         className='col-12'
         style={{
           height: '450px',
           textAlign: 'center',
-          maxWidth: '1000px',
+          // maxWidth: '1000px',
           padding: '30px 300px',
           margin: 'auto',
         }}
@@ -130,8 +134,8 @@ const Home = () => (
         <div
           style={{
             display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
+            flex: '0 0 200px',
+            flexWrap: 'wrap',
             margin: '20px 10px',
           }}
         >
@@ -141,7 +145,7 @@ const Home = () => (
         </div>
       </div>
     </div>
-  </div>
+  </main>
 )
 
 export default Home
