@@ -1,0 +1,16 @@
+.mainDiv {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #efefef;
+  font-family: 'Source Sans Pro', sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  /* flex: 0 0 100%; */
+  flex-wrap: wrap;
+  max-width: 1000px;
+}

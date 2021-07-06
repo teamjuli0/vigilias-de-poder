@@ -1,15 +1,5 @@
 import React from 'react'
 
-const ListItem = (props) => {
-  return (
-    <li className='nav-item'>
-      <a className='nav-link' aria-current='page' href={props.link}>
-        {props.text}
-      </a>
-    </li>
-  )
-}
-
 const Navbar = (props) => {
   return (
     <>
@@ -19,9 +9,7 @@ const Navbar = (props) => {
             <img
               alt=''
               // src={require('./images/placeholder.webp').default}
-              style={{
-                height: '30px',
-              }}
+              className='navImg'
             />
           </a>
           <button
@@ -56,12 +44,6 @@ const Navbar = (props) => {
             color: 'white',
           }}
         >
-          {/* <button
-            type='button'
-            class='btn-close'
-            data-bs-dismiss='modal'
-            aria-label='Close'
-          ></button> */}
           <h1>Hello World</h1>
         </div>
       </div>

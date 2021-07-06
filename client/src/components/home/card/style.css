@@ -1,0 +1,85 @@
+.mainCardDiv {
+  flex: 0 0 33.3%;
+}
+
+.mainCardDiv > div {
+  background-color: #f7f7f7;
+  border-radius: 4px;
+  box-shadow: 0 0 25px #cecece;
+  margin: 10px;
+}
+
+.cardImgDiv {
+  min-height: 175px;
+  width: 100%;
+  position: relative;
+}
+
+.nestedImgDiv {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.cardImg {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.imgOpacite {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.7;
+}
+
+.imgText {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  padding: 0 10px;
+  font-size: 35px;
+}
+
+.cardInfoDiv {
+  height: 50px;
+  text-align: left;
+  margin: 0 0 0 10px;
+}
+
+.infoHeader {
+  padding: 0;
+  margin: 5px 0 0 0;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.infoDescription {
+  padding: 0;
+  margin-top: -5px;
+  font-size: 13px;
+}
+
+@media screen and (max-width: 786px) {
+  .mainCardDiv {
+    flex: 1 0 50%;
+    max-width: 375px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 546px) {
+  .mainCardDiv {
+    flex: 1 0 100%;
+    max-width: 375px;
+    margin: auto;
+  }
+}
