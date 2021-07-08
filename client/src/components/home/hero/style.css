@@ -41,9 +41,9 @@
 }
 
 .heroInfoDiv > div > p {
-  font-size: 50px;
+  font-size: 70px;
   font-weight: bolder;
-  margin: -30px auto 0 auto;
+  margin: -60px auto 0 auto;
 }
 
 .heroBtn {
@@ -67,4 +67,12 @@
   border-radius: 3px;
   /* transform-origin: right; */
   transform: scale(1.03);
+}
+
+@media screen and (max-width: 546px) {
+  .heroInfoDiv > div > p {
+    font-size: 50px;
+    font-weight: bolder;
+    margin: -30px auto 0 auto;
+  }
 }

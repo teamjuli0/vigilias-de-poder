@@ -3,6 +3,8 @@
 }
 
 .mainCardDiv > div {
+  height: 93%;
+  width: 93%;
   background-color: #f7f7f7;
   border-radius: 4px;
   box-shadow: 0 0 25px #cecece;
@@ -11,13 +13,9 @@
 
 .cardImgDiv {
   min-height: 175px;
-  width: 100%;
-  position: relative;
-}
-
-.nestedImgDiv {
-  height: 100%;
-  width: 100%;
+  height: 80%;
+  display: flex;
+  flex: 1 0 100%;
   position: relative;
 }
 
@@ -32,7 +30,7 @@
   height: 100%;
   width: 100%;
   background-color: black;
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
 .imgText {
@@ -51,12 +49,15 @@
 
 .cardInfoDiv {
   height: 50px;
+  flex-direction: row;
   text-align: left;
+  flex-wrap: wrap;
   margin: 0 0 0 10px;
 }
 
 .infoHeader {
   padding: 0;
+  flex: 1 0 100%;
   margin: 5px 0 0 0;
   font-size: 17px;
   font-weight: bold;
@@ -64,8 +65,11 @@
 
 .infoDescription {
   padding: 0;
+  flex: 1 0 100%;
   margin-top: -5px;
   font-size: 13px;
+  padding-bottom: 5px;
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 786px) {

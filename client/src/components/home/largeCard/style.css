@@ -1,0 +1,134 @@
+#largeCardDiv {
+  /* width: 100%; */
+  flex: 0 0 100%;
+}
+
+#sermonSearchDiv {
+  display: flex;
+  flex-direction: row;
+  padding: 0 10px;
+}
+
+#sermonSearchDiv > h1 {
+  flex: 0 0 30%;
+  margin: 0;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+#search {
+  display: flex;
+  flex: 0 0 70%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#search > input {
+  max-width: 350px;
+  width: 60%;
+  height: 30px;
+}
+#search > button {
+  width: 30px;
+  height: 30px;
+}
+
+#largeCardDiv > #largeCardInnerDiv {
+  background-color: #f7f7f7;
+  border-radius: 4px;
+  height: 500px;
+  box-shadow: 0 0 25px #cecece;
+  margin: 10px;
+  position: relative;
+}
+
+.largeCardImg {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.largeImgOpacite {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.1;
+}
+
+#largeCardTitle,
+#largeCardDesc {
+  position: absolute;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#largeCardTitle > p,
+#largeCardDesc > p {
+  background-color: white;
+  padding: 2px 10px;
+  margin-bottom: 0;
+}
+
+#largeCardTitle {
+  bottom: 60px;
+}
+
+#largeCardDesc {
+  bottom: 20px;
+}
+
+#largeCardTitle > p {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+#largeCardDesc > p {
+  min-width: 300px;
+  /* font-weight: bold; */
+  font-size: 17px;
+  color: #323232;
+}
+
+.triangleTitle {
+  width: 0;
+  height: 0;
+  border-top: 19px solid transparent !important;
+  border-bottom: 19px solid white;
+  border-right: 19px solid transparent;
+  border-left: 19px solid white;
+}
+
+.triangleDesc {
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent !important;
+  border-bottom: 15px solid white;
+  border-right: 15px solid transparent;
+  border-left: 15px solid white;
+}
+
+@media screen and (max-width: 546px) {
+  #largeCardDiv {
+    flex: 1 0 100%;
+    max-width: 375px;
+    margin: auto;
+  }
+
+  #largeCardTitle {
+    bottom: 90px;
+  }
+
+  .triangleDesc {
+    display: none;
+  }
+
+  #sermonSearchDiv > h1 {
+    /* flex: 0 0 30%;
+    margin: 0;
+    font-weight: bold; */
+    font-size: 23px;
+  }
+}
