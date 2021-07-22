@@ -7,13 +7,14 @@
   display: flex;
   flex-direction: row;
   padding: 0 10px;
+  align-items: center;
 }
 
 #sermonSearchDiv > h1 {
   flex: 0 0 30%;
   margin: 0;
   font-weight: bold;
-  font-size: 35px;
+  font-size: 30px;
 }
 
 #search {
@@ -23,14 +24,13 @@
   align-items: center;
 }
 
-#search > input {
+#search > div > input {
   max-width: 350px;
-  width: 60%;
-  height: 30px;
+  width: 65%;
 }
-#search > button {
-  width: 30px;
-  height: 30px;
+#search > div > button {
+  width: 35px;
+  padding-left: 10px;
 }
 
 #largeCardDiv > #largeCardInnerDiv {

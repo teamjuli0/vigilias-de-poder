@@ -6,10 +6,34 @@ const LargeCard = () => (
     <div id='sermonSearchDiv'>
       <h1>SERMONS</h1>
       <div id='search'>
-        <input />
-        <button>
-          <i class='fas fa-search'></i>
-        </button>
+        <div
+          style={{
+            width: '100%',
+            display: 'flex',
+            justifyContent: 'flex-end',
+            alignItems: 'center',
+            padding: '10px 0',
+          }}
+        >
+          <button
+            style={{
+              backgroundColor: '#d2d2d2',
+              border: 0,
+              borderRadius: '5px 0 0 5px',
+              padding: '5px 0',
+            }}
+          >
+            <i class='fas fa-search'></i>
+          </button>
+          <input
+            style={{
+              backgroundColor: '#d2d2d2',
+              border: 0,
+              borderRadius: '0 5px 5px 0',
+              padding: '5px 0',
+            }}
+          />
+        </div>
       </div>
     </div>
     <div id='largeCardInnerDiv'>
