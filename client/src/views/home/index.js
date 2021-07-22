@@ -13,7 +13,6 @@ const imagesArr = [
 
 const Home = () => (
   <>
-    {' '}
     <main className='mainDiv'>
       <Hero />
       <div className='flexRow'>

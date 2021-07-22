@@ -1,23 +1,27 @@
 import React from 'react'
 import { bannerBlur } from './images'
+import VideoWall from '../videoWall'
 import './style.css'
 
 const Hero = () => (
   <div className='heroMainRow'>
     <div>
       <div className='heroOpacity' />
-      <img src={bannerBlur} alt='' className='heroImg'></img>
-      <div className='heroInfoDiv'>
-        <div>
-          <p>JESUS IS LIFE</p>
-          <a className='heroBtn' href='/'>
-            BUTTON ONE
-          </a>
-          <a className='heroBtn' href='/'>
-            BUTTON ONE
-          </a>
+      <VideoWall>
+        <div className='heroInfoDiv'>
+          <div>
+            <p>JESUS IS LIFE</p>
+            <a className='heroBtn' href='/'>
+              BUTTON ONE
+            </a>
+            <a className='heroBtn' href='/'>
+              BUTTON ONE
+            </a>
+          </div>
         </div>
-      </div>
+      </VideoWall>
+
+      {/* <img src={bannerBlur} alt='' className='heroImg'></img> */}
     </div>
   </div>
 )
