@@ -22,7 +22,7 @@ function App() {
         crossorigin='anonymous'
         referrerpolicy='no-referrer'
       />
-      <Navbar buttonTxt={language.navbarButtons} />
+      {/* <Navbar buttonTxt={language.navbarButtons} /> */}
       <Home />
     </>
   )
