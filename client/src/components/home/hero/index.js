@@ -10,7 +10,7 @@ const Hero = () => (
       <VideoWall>
         <div className='heroInfoDiv'>
           <div>
-            <p>JESUS IS LIFE</p>
+            <p className='cursor-default'>JESUS IS LIFE</p>
             <a className='heroBtn' href='/'>
               BUTTON ONE
             </a>

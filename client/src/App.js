@@ -23,7 +23,6 @@ function App() {
         referrerpolicy='no-referrer'
       />
       <Home />
-      <Footer />
     </>
   )
 }

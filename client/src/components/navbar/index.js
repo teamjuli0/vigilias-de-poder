@@ -6,7 +6,7 @@ const Navbar = (props) => {
     <>
       <nav>
         <div id='nav-row-1'>
-          <p>VIGILIAS DE PODER</p>
+          <p className='cursor-default'>VIGILIAS DE PODER</p>
           <div>
             <div id='row-btns'>
               <a href='/'>Button 1</a>
@@ -17,7 +17,7 @@ const Navbar = (props) => {
           </div>
         </div>
         <div id='nav-row-2'>
-          <p>SERMONS</p>
+          <p className='cursor-default'>SERMONS</p>
           <div id='input-div'>
             <a href='/'>
               <i class='fas fa-search'></i>

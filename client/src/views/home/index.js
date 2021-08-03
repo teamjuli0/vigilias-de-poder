@@ -1,5 +1,5 @@
 import React from 'react'
-import { Hero, Card, LargeCard, Navbar } from '../../components/'
+import { Hero, Card, LargeCard, Navbar, Footer } from '../../components/'
 import './style.css'
 
 const imagesArr = [
@@ -22,6 +22,8 @@ const Home = () => (
           <Card img={image} />
         ))}
       </div>
+
+      <Footer />
     </main>
   </>
 )
