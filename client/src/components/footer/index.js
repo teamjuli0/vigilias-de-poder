@@ -33,9 +33,10 @@ const Footer = () => {
           <div class='footer-col'>
             <h1 className='cursor-default'>{headerThree.title}</h1>
             {headerThree.options.map((option) => (
-              <a href={option.link}>
-                <p>{option.title}</p>
-              </a>
+              <div>
+                <p className='cursor-default'>{option.day}: </p>
+                <p className='cursor-default'>{option.time}</p>
+              </div>
             ))}
           </div>
         </div>

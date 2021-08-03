@@ -92,7 +92,7 @@ nav {
   background-color: #f7f7f7;
 }
 
-@media screen and (max-width: 614px) {
+@media screen and (max-width: 667px) {
   #nav-row-1 > div {
     margin: 0 auto;
   }
@@ -113,29 +113,30 @@ nav {
   }
 }
 
-@media screen and (min-width: 615px) {
+@media screen and (min-width: 668px) {
   #row-btns > a {
     line-height: 57px;
     height: 57px;
   }
 }
 
-@media screen and (max-width: 381px) {
+@media screen and (max-width: 431px) {
   #row-btns {
     position: fixed;
     bottom: 0;
-    background-color: #282828;
-    padding: 0;
+    background-color: #333333;
+    padding: 0 0 15px 0;
     margin: 0;
   }
 
   #row-btns > a {
+    font-size: 14px;
     flex: 0 0 25%;
     margin: 0;
     padding: 0 !important;
   }
   #row-btns > a:nth-child(3n) {
-    background-color: #4f6c6c;
+    background-color: #333333;
   }
   #nav-row-2 {
     display: flex;
@@ -157,5 +158,11 @@ nav {
 
   #input-div > input {
     flex: 1;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  #row-btns > a {
+    flex: 0 0 50%;
   }
 }
