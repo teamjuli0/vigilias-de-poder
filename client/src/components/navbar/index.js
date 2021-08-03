@@ -1,52 +1,31 @@
 import React from 'react'
+import './style.css'
 
 const Navbar = (props) => {
   return (
     <>
-      <nav className='navbar fixed-top navbar-expand-lg navbar-dark'>
-        <div className='container-fluid'>
-          <a className='navbar-brand' href='/'>
-            <img
-              alt=''
-              // src={require('./images/placeholder.webp').default}
-              className='navImg'
-            />
-          </a>
-          <button
-            className='navbar-toggler'
-            type='button'
-            data-bs-toggle='modal'
-            data-bs-target='#exampleModal'
-          >
-            <span className='navbar-toggler-icon'></span>
-          </button>
-          <div className='collapse navbar-collapse' id='navbarSupportedContent'>
-            <div
-              style={{
-                color: 'white',
-              }}
-            >
-              Hello World
+      <nav>
+        <div id='nav-row-1'>
+          <p>VIGILIAS DE PODER</p>
+          <div>
+            <div id='row-btns'>
+              <a href='/'>Button 1</a>
+              <a href='/'>Button 2</a>
+              <a href='/'>Button 3</a>
+              <a href='/'>Button 4</a>
             </div>
           </div>
         </div>
-      </nav>
-      <div
-        class='modal fade'
-        id='exampleModal'
-        tabindex='-1'
-        aria-labelledby='exampleModalLabel'
-        aria-hidden='true'
-      >
-        <div
-          class='modal-dialog'
-          style={{
-            color: 'white',
-          }}
-        >
-          <h1>Hello World</h1>
+        <div id='nav-row-2'>
+          <p>SERMONS</p>
+          <div id='input-div'>
+            <a href='/'>
+              <i class='fas fa-search'></i>
+            </a>
+            <input type='text' />
+          </div>
         </div>
-      </div>
+      </nav>
     </>
   )
 }

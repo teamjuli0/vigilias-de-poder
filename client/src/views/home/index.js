@@ -1,5 +1,5 @@
 import React from 'react'
-import { Hero, Card, LargeCard } from '../../components/'
+import { Hero, Card, LargeCard, Navbar } from '../../components/'
 import './style.css'
 
 const imagesArr = [
@@ -13,9 +13,9 @@ const imagesArr = [
 
 const Home = () => (
   <>
-    {' '}
     <main className='mainDiv'>
       <Hero />
+      <Navbar />
       <div className='flexRow'>
         <LargeCard />
         {imagesArr.map((image) => (
