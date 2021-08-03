@@ -43,7 +43,7 @@ nav {
 }
 
 #row-btns > a {
-  color: #dbe1e1;
+  color: #d0d0d0;
   text-decoration: none;
   font-weight: bold;
   padding: 0 5px;
@@ -53,6 +53,7 @@ nav {
 
 #row-btns > a:nth-child(3n) {
   padding: 0 15px;
+  color: #f0f0f0;
   background-color: #4f6c6c;
 }
 
@@ -107,12 +108,12 @@ nav {
   }
 
   #row-btns > a {
-    line-height: 47px;
-    height: 47px;
+    line-height: 40px;
+    height: 40px;
   }
 }
 
-@media screen and (min-width: 382px) {
+@media screen and (min-width: 615px) {
   #row-btns > a {
     line-height: 57px;
     height: 57px;
@@ -134,7 +135,7 @@ nav {
     padding: 0 !important;
   }
   #row-btns > a:nth-child(3n) {
-    background-color: #282828;
+    background-color: #4f6c6c;
   }
   #nav-row-2 {
     display: flex;
