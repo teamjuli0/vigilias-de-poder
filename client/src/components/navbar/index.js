@@ -1,7 +1,9 @@
 import React from 'react'
 import './style.css'
+import { Es } from '../../languages'
 
-const Navbar = (props) => {
+const Navbar = () => {
+  const { options, sermons } = Es().nav
   return (
     <>
       <nav>
@@ -9,15 +11,14 @@ const Navbar = (props) => {
           <p className='cursor-default'>VIGILIAS DE PODER</p>
           <div>
             <div id='row-btns'>
-              <a href='/'>Button 1</a>
-              <a href='/'>Button 2</a>
-              <a href='/'>Button 3</a>
-              <a href='/'>Button 4</a>
+              {options.map((btn) => (
+                <a href={btn.link}>{btn.title}</a>
+              ))}
             </div>
           </div>
         </div>
         <div id='nav-row-2'>
-          <p className='cursor-default'>SERMONS</p>
+          <p className='cursor-default'>{sermons}</p>
           <div id='input-div'>
             <a href='/'>
               <i class='fas fa-search'></i>

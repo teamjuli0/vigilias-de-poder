@@ -2,6 +2,9 @@ import React from 'react'
 import { bannerBlur } from './images'
 import VideoWall from '../videoWall'
 import './style.css'
+import { Es } from '../../../languages'
+
+const { hero } = Es()
 
 const Hero = () => (
   <div className='heroMainRow'>
@@ -10,13 +13,12 @@ const Hero = () => (
       <VideoWall>
         <div className='heroInfoDiv'>
           <div>
-            <p className='cursor-default'>JESUS IS LIFE</p>
-            <a className='heroBtn' href='/'>
-              BUTTON ONE
-            </a>
-            <a className='heroBtn' href='/'>
-              BUTTON ONE
-            </a>
+            <p className='cursor-default'>{hero.header}</p>
+            {hero.buttons.map((btn) => (
+              <a className='heroBtn' href={btn.link}>
+                {btn.title}
+              </a>
+            ))}
           </div>
         </div>
       </VideoWall>

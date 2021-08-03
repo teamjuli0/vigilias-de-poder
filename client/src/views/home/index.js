@@ -11,7 +11,7 @@ const imagesArr = [
   'https://willingsteward.com/wp-content/uploads/2017/08/Webp.net-resizeimage-2.jpg',
 ]
 
-const Home = () => (
+const Home = (props) => (
   <>
     <main className='mainDiv'>
       <Hero />

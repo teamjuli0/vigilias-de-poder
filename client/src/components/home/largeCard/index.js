@@ -10,11 +10,11 @@ const LargeCard = () => (
       <img className='logo' alt='' src={logo}></img>
       <div id='largeCardTitle'>
         <p>Sermon Name Here</p>
-        <div className='triangleTitle' />
+        {/* <div className='triangleTitle' /> */}
       </div>
       <div id='largeCardDesc'>
         <p>Here you can put the preacher name or short sermon description</p>
-        <div className='triangleDesc' />
+        {/* <div className='triangleDesc' /> */}
       </div>
     </div>
   </div>
