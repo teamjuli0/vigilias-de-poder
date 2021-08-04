@@ -18,10 +18,10 @@ function Es() {
     },
     footer: {
       buttons: [
-        { link: '/', title: 'Opcion Uno' },
-        { link: '/', title: 'Opcion Dos' },
-        { link: '/', title: 'Opcion Tres' },
-        { link: '/', title: 'Opcion Cuatro' },
+        { link: '/', title: 'Facebook' },
+        { link: '/', title: 'Youtube' },
+        { link: '/', title: 'En Vivo' },
+        { link: '/', title: 'Sobre Nosotros' },
       ],
       headerOne: {
         title: 'Encuéntranos',

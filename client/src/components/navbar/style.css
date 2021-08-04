@@ -161,7 +161,7 @@ nav {
   }
 }
 
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 360px) {
   #row-btns > a {
     flex: 0 0 50%;
   }
