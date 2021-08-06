@@ -2,7 +2,8 @@ import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 import { Footer } from './components/'
-import { Home } from './views/'
+import { Home, Location } from './views/'
+import { BrowserRouter as Router, Switch, Route, link } from 'react-router-dom'
 
 function App() {
   return (
@@ -19,7 +20,16 @@ function App() {
         crossorigin='anonymous'
         referrerpolicy='no-referrer'
       />
-      <Home />
+      <Router>
+        <Switch>
+          <Route exact path='/'>
+            <Home />
+          </Route>
+          <Route expact path='/location'>
+            <Location />
+          </Route>
+        </Switch>
+      </Router>
     </>
   )
 }

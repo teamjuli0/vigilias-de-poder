@@ -10,7 +10,7 @@ function Es() {
     nav: {
       options: [
         { link: '/', title: 'INICIO' },
-        { link: '/', title: 'DIRECCIONES' },
+        { link: '/location', title: 'DIRECCIONES' },
         { link: '/', title: 'EN VIVO' },
         { link: '/', title: 'DONACIONES' },
       ],
