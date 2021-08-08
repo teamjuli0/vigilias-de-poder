@@ -8,10 +8,10 @@
 }
 
 .flexRow {
-  margin: 10px 0;
   display: flex;
+  flex-wrap: wrap;
+  margin: 10px 0;
   flex-direction: row;
   /* flex: 0 0 100%; */
-  flex-wrap: wrap;
   max-width: 950px;
 }

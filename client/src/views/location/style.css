@@ -1,0 +1,97 @@
+#col-left-location {
+  flex: 0 0 35%;
+  height: 500px;
+  align-items: flex-start;
+}
+
+#col-left-location > div {
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 0 15px 15px;
+  min-height: 165px;
+  background-color: white;
+  box-shadow: 0 0 15px #cecece;
+}
+
+#col-left-location > div:first-child {
+  min-height: 200px;
+}
+
+#address-div,
+#service-time-div {
+  padding: 10px 15px;
+  font-weight: bold;
+}
+
+#address-div > h1,
+#service-time-div > h1 {
+  padding: 0;
+  color: #191919;
+  margin: 10px 0 0 0;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+#service-time-div > h1 {
+  font-size: 30px;
+}
+
+#address-lg-txt {
+  font-size: 25px;
+  color: #323232;
+  padding: 0;
+  margin: -10px 0;
+}
+
+#address-sm-txt {
+  font-size: 18px;
+  color: #323232;
+  padding: 0;
+  margin: 0 0 15px 0;
+}
+
+#address-div > a {
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: #47796e;
+}
+
+.service-day {
+  font-size: 25px;
+  color: #323232;
+  padding: 0;
+  margin: 0;
+}
+
+.service-time {
+  font-size: 18px;
+  color: #323232;
+  padding: 0;
+  margin: -10px 0 0 0;
+}
+
+#map-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 65%;
+  height: 575px;
+}
+
+#map-container > div {
+  flex: 1 1 auto;
+  height: 500px;
+  max-width: 950px;
+  border-radius: 10px;
+}
+
+#mapid {
+  overflow: hidden;
+  box-shadow: 0 0 15px #b9b9b9;
+  border-radius: 10px;
+  margin: 0 15px;
+  height: 500px;
+}
