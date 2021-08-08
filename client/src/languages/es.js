@@ -3,7 +3,7 @@ function Es() {
     hero: {
       header: 'JESUS ES VIDA',
       buttons: [
-        { link: '/', title: 'DIRECCIONES' },
+        { link: '/location', title: 'DIRECCIONES' },
         { link: '/', title: 'SOY NUEVO' },
       ],
     },

@@ -7,7 +7,7 @@ nav {
   width: 100%;
   position: sticky;
   top: 0px;
-  z-index: 10;
+  z-index: 1001;
 }
 
 #nav-row-1 {
