@@ -7,7 +7,7 @@ nav {
   width: 100%;
   position: sticky;
   top: 0px;
-  z-index: 10;
+  z-index: 1001;
 }
 
 #nav-row-1 {
@@ -161,7 +161,7 @@ nav {
   }
 }
 
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 360px) {
   #row-btns > a {
     flex: 0 0 50%;
   }

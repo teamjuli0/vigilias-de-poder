@@ -3,14 +3,14 @@ function Es() {
     hero: {
       header: 'JESUS ES VIDA',
       buttons: [
-        { link: '/', title: 'DIRECCIONES' },
+        { link: '/location', title: 'DIRECCIONES' },
         { link: '/', title: 'SOY NUEVO' },
       ],
     },
     nav: {
       options: [
         { link: '/', title: 'INICIO' },
-        { link: '/', title: 'DIRECCIONES' },
+        { link: '/location', title: 'DIRECCIONES' },
         { link: '/', title: 'EN VIVO' },
         { link: '/', title: 'DONACIONES' },
       ],
@@ -18,10 +18,10 @@ function Es() {
     },
     footer: {
       buttons: [
-        { link: '/', title: 'Opcion Uno' },
-        { link: '/', title: 'Opcion Dos' },
-        { link: '/', title: 'Opcion Tres' },
-        { link: '/', title: 'Opcion Cuatro' },
+        { link: '/', title: 'Facebook' },
+        { link: '/', title: 'Youtube' },
+        { link: '/', title: 'En Vivo' },
+        { link: '/', title: 'Sobre Nosotros' },
       ],
       headerOne: {
         title: 'Encuéntranos',
