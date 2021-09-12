@@ -6,7 +6,7 @@ import { MapMarker } from './images'
 
 const Location = () => {
   useEffect(() => {
-    let mymap = L.map('mapid').setView([34.03964, -118.2926], 13)
+    let mymap = L.map('mapid').setView([34.03964, -118.2926], 15)
     mymap.scrollWheelZoom.disable()
 
     let MapMarkerIcon = L.icon({
@@ -18,12 +18,14 @@ const Location = () => {
     })
 
     L.tileLayer(
-      'https://tiles.stadiamaps.com/tiles/osm_bright/{z}/{x}/{y}{r}.png',
+      'https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}{r}.{ext}',
       {
+        attribution:
+          'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+        subdomains: 'abcd',
         maxZoom: 20,
         minZoom: 9,
-        attribution:
-          '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors',
+        ext: 'png',
       }
     ).addTo(mymap)
 
