@@ -34,8 +34,8 @@ const Location = () => {
 
   return (
     <>
-      <Navbar />
       <main className='mainDiv'>
+        <Navbar />
         <div id='col-left-location'>
           <div>
             <div id='address-div'>
