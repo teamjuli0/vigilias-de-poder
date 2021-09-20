@@ -31,13 +31,42 @@ const Footer = () => {
             ))}
           </div>
           <div class='footer-col'>
-            <h1 className='cursor-default'>{headerThree.title}</h1>
-            {headerThree.options.map((option) => (
-              <div>
-                <p className='cursor-default'>{option.day}: </p>
-                <p className='cursor-default'>{option.time}</p>
+            <h1 className='cursor-default'>Preguntas?</h1>
+            <div>
+              <div
+                style={{
+                  border: 0,
+                  flex: '0 0 50%',
+                }}
+              >
+                <input
+                  style={{
+                    width: '100%',
+                  }}
+                />
               </div>
-            ))}
+              <div
+                style={{
+                  border: 0,
+                  flex: '0 0 50%',
+                }}
+              >
+                <input
+                  style={{
+                    width: '100%',
+                  }}
+                />
+              </div>
+            </div>
+            <input
+              style={{
+                margin: 0,
+                padding: 0,
+                border: 0,
+                width: '100%',
+                flex: '0 0 100%',
+              }}
+            />
           </div>
         </div>
       </div>

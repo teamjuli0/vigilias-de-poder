@@ -1,5 +1,4 @@
 import React from 'react'
-import { bannerBlur } from './images'
 import VideoWall from '../videoWall'
 import './style.css'
 import { Es } from '../../../languages'
@@ -13,7 +12,7 @@ const Hero = () => (
       <VideoWall>
         <div className='heroInfoDiv'>
           <div>
-            <p className='cursor-default'>{hero.header}</p>
+            <p className='cursor-default'>VIGILIAS DE PODER</p>
             {hero.buttons.map((btn) => (
               <a className='heroBtn' href={btn.link}>
                 {btn.title}
